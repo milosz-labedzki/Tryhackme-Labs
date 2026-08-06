@@ -1,6 +1,6 @@
 * `Read` - Allows viewing file/folder contents, attributes, and permissions.
 
-*` Write` - Allows creating new files/folders and writing data to existing ones.
+* ` Write` - Allows creating new files/folders and writing data to existing ones.
 
 * `Read & Execute` - Allows viewing contents and running executable files or scripts.
 
