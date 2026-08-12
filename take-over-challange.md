@@ -17,4 +17,3 @@
 * `Step 3` - Append the newly discovered subdomain to the local hosts file.
 * `Step 4` - Inspect the TLS certificate's Subject Alternative Name field to uncover hidden infrastructure.
 * `Step 5` - Query the hidden subdomain directly via curl or a browser to retrieve the flag.
-EOF
