@@ -12,7 +12,6 @@
 
 ## Step-by-Step Methodology
 
-cat << 'EOF'
 * `Step 1` - Map the target IP address and primary domain name in the local hosts file.
 * `Step 2` - Perform virtual host fuzzing using wordlists to discover valid subdomains.
 * `Step 3` - Append the newly discovered subdomain to the local hosts file.
