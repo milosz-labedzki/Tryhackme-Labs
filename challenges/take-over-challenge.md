@@ -12,8 +12,8 @@
 
 ## Step-by-Step Methodology
 
-* `Step 1` - Map the target IP address and primary domain name in the local hosts file.
-* `Step 2` - Perform virtual host fuzzing using wordlists to discover valid subdomains.
-* `Step 3` - Append the newly discovered subdomain to the local hosts file.
-* `Step 4` - Inspect the TLS certificate's Subject Alternative Name field to uncover hidden infrastructure.
-* `Step 5` - Query the hidden subdomain directly via curl or a browser to retrieve the flag.
+- **Step 1** - Map the target IP address and primary domain name in the local hosts file.
+- **Step 2** - Perform virtual host fuzzing using wordlists to discover valid subdomains.
+- **Step 3** - Append the newly discovered subdomain to the local hosts file.
+- **Step 4** - Inspect the TLS certificate's Subject Alternative Name field to uncover hidden infrastructure.
+- **Step 5** - Query the hidden subdomain directly via curl or a browser to retrieve the flag.
