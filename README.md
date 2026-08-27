@@ -39,3 +39,8 @@ New write-ups are added directly into `challenges/` or `walkthroughs/` as I comp
 * **Web Exploitation:** SQLi, XSS, IDOR, File Inclusion, Command Injection.
 * **Privilege Escalation:** Linux SUID/GUID capabilities, Windows token impersonation, misconfigurations.
 
+### 🛡️ Defensive Security & Analysis (Blue Team)
+* **Network & Log Analysis:** Wireshark traffic inspection, Windows Event Logs analysis.
+* **Threat Hunting & SIEM:** Basics of Splunk, ELK stack, and YARA rules.
+* **Incident Response:** Artifact analysis and volatile memory forensics.
+
