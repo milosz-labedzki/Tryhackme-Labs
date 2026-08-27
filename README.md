@@ -32,7 +32,10 @@ New write-ups are added directly into `challenges/` or `walkthroughs/` as I comp
 
 ## 🛠️ Skills in Progress
 
-*A living list — expanded as new areas get covered, not a checklist to maintain.*
+*A living roadmap of tools, methodologies, and concepts covered across labs.*
 
-`Enumeration` · `Privilege Escalation` · `Active Directory` · `Networking (DNS/SMB/LDAP)` · `Web Exploitation` · `Log & Traffic Analysis`
+### ⚔️ Offensive Security (Red Team)
+* **Recon & Enumeration:** Service scanning, directory fuzzing, OSINT.
+* **Web Exploitation:** SQLi, XSS, IDOR, File Inclusion, Command Injection.
+* **Privilege Escalation:** Linux SUID/GUID capabilities, Windows token impersonation, misconfigurations.
 
