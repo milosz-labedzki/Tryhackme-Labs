@@ -44,3 +44,7 @@ New write-ups are added directly into `challenges/` or `walkthroughs/` as I comp
 * **Threat Hunting & SIEM:** Basics of Splunk, ELK stack, and YARA rules.
 * **Incident Response:** Artifact analysis and volatile memory forensics.
 
+---
+
+**Core Toolkit & Protocols:**  
+`Nmap` · `Burp Suite` · `Metasploit` · `Wireshark` · `Impacket` · `BloodHound` · `FFUF` · `OpenVPN`
