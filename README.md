@@ -30,15 +30,12 @@ Tryhackme-Labs/
 
 ## Skills
 
-**Offensive**
-- Recon & enumeration: scanning, fuzzing, OSINT
+- Enumeration: Nmap scans, service fingerprinting, directory fuzzing
 - Web exploitation: SQLi, XSS, IDOR, LFI/RFI, command injection
-- Privilege escalation: Linux SUID/GUID, Windows token impersonation, misconfigs
-
-**Defensive**
-- Network/log analysis: Wireshark, Windows Event Logs
-- Threat hunting: Splunk, ELK, YARA
-- Incident response: artifact analysis, memory forensics
+- Active Directory attacks: Kerberoasting, LLMNR/NBT-NS poisoning, BloodHound
+- Privilege escalation: Linux SUID/GTFOBins, Windows token impersonation, misconfigs
+- Log & traffic analysis: Wireshark, Windows Event Logs
+- Forensics: memory dumps, artifact analysis, OSINT
 
 ---
 
