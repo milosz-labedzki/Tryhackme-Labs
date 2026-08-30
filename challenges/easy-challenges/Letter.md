@@ -1,4 +1,4 @@
-# Letter (List) Walkthrough
+# Letter Walkthrough
 
 ### Tools Used
 - `Gallica (BnF)` - Digital archive of the French National Library, used to search through issues of the L'Ouest-Éclair newspaper.
