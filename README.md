@@ -8,7 +8,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/milosz-labedzki/Tryhackme-Labs?style=for-the-badge&color=blue)](https://github.com/milosz-labedzki/Tryhackme-Labs/commits/main)
 ![Focus](https://img.shields.io/badge/focus-offensive%20%2B%20defensive-success?style=for-the-badge)
 
-[About](#-about) · [Skills](#-skills) · [Toolkit](#-toolkit) · [Rooms](#-rooms) · [Write-up format](#-write-up-format)
+[About](#-about) · [Skills](#-skills) · [Toolkit](#-toolkit) · [Rooms](#-rooms) 
 
 </div>
 
@@ -64,31 +64,7 @@ Recon  →  Exploitation  →  Post-exploitation  →  Lessons learned
 
 ---
 
-## 📝 Write-up format
 
-<details>
-<summary>Template used for each room</summary>
-
-```markdown
-# Room name
-
-**Difficulty:** Easy / Medium / Hard
-**Topics:** enumeration, web, privesc, ...
-
-## 1. Recon
-Scans, findings, attack surface.
-
-## 2. Exploitation
-How initial access was gained.
-
-## 3. Post-exploitation
-Privilege escalation, lateral movement, flags.
-
-## 4. Lessons learned
-What worked, what didn't, how to defend against it.
-```
-
-</details>
 
 ---
 
