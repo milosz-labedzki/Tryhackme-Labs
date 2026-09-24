@@ -1,42 +1,99 @@
 <div align="center">
 
-# TryHackMe Labs
+# 🛡️ TryHackMe Labs
 
-Notes, cheat sheets, and write-ups from TryHackMe rooms and challenges.
+**Notes, cheat sheets and write-ups from TryHackMe rooms and challenges.**
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-miloszlabedzki-red?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/miloszlabedzki)
 [![GitHub last commit](https://img.shields.io/github/last-commit/milosz-labedzki/Tryhackme-Labs?style=for-the-badge&color=blue)](https://github.com/milosz-labedzki/Tryhackme-Labs/commits/main)
+![Focus](https://img.shields.io/badge/focus-offensive%20%2B%20defensive-success?style=for-the-badge)
+
+[About](#-about) · [Skills](#-skills) · [Toolkit](#-toolkit) · [Rooms](#-rooms) · [Write-up format](#-write-up-format)
 
 </div>
 
 ---
 
-## About
+## 📖 About
 
-Hands-on progress through TryHackMe rooms: enumeration, exploitation, privilege escalation, defensive analysis. Format: recon → exploitation → post-exploitation → lessons learned.
+Hands-on progress through TryHackMe rooms covering enumeration, exploitation, privilege escalation and defensive analysis.
 
----
-
-## Structure
+Every write-up follows the same flow:
 
 ```
-Tryhackme-Labs/
-├── challenges/     # Standalone CTF-style challenges
-├── walkthroughs/   # Full room walkthroughs
-└── README.md
+Recon  →  Exploitation  →  Post-exploitation  →  Lessons learned
 ```
 
 ---
 
-## Skills
+## 🎯 Skills
 
-- Enumeration: Nmap scans, service fingerprinting, directory fuzzing
-- Web exploitation: SQLi, XSS, IDOR, LFI/RFI, command injection
-- Active Directory attacks: Kerberoasting, LLMNR/NBT-NS poisoning, BloodHound
-- Privilege escalation: Linux SUID/GTFOBins, Windows token impersonation, misconfigs
-- Log & traffic analysis: Wireshark, Windows Event Logs
-- Forensics: memory dumps, artifact analysis, OSINT
+| Area | What I practice |
+|------|-----------------|
+| 🔍 **Enumeration** | Nmap scans, service fingerprinting, directory fuzzing |
+| 🌐 **Web exploitation** | SQLi, XSS, IDOR, LFI/RFI, command injection |
+| 🏢 **Active Directory** | Kerberoasting, LLMNR/NBT-NS poisoning, BloodHound |
+| ⬆️ **Privilege escalation** | Linux SUID / GTFOBins, Windows token impersonation, misconfigurations |
+| 📡 **Log & traffic analysis** | Wireshark, Windows Event Logs |
+| 🧬 **Forensics** | Memory dumps, artifact analysis, OSINT |
 
 ---
 
-**Toolkit:** `Nmap` · `Burp Suite` · `Metasploit` · `Wireshark` · `Impacket` · `BloodHound` · `FFUF` · `OpenVPN`
+## 🧰 Toolkit
+
+![Nmap](https://img.shields.io/badge/Nmap-004100?style=flat-square&logo=nmap&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-555555?style=flat-square)
+![BloodHound](https://img.shields.io/badge/BloodHound-D22128?style=flat-square)
+![FFUF](https://img.shields.io/badge/FFUF-00ADD8?style=flat-square)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white)
+
+---
+
+## 🗂️ Rooms
+
+| Room | Category | Difficulty | Write-up |
+|------|----------|:----------:|:--------:|
+| _Room name_ | Web | 🟢 Easy | [Read](#) |
+| _Room name_ | Active Directory | 🟠 Medium | [Read](#) |
+| _Room name_ | Privesc | 🔴 Hard | [Read](#) |
+
+> Difficulty legend: 🟢 Easy · 🟠 Medium · 🔴 Hard
+
+---
+
+## 📝 Write-up format
+
+<details>
+<summary>Template used for each room</summary>
+
+```markdown
+# Room name
+
+**Difficulty:** Easy / Medium / Hard
+**Topics:** enumeration, web, privesc, ...
+
+## 1. Recon
+Scans, findings, attack surface.
+
+## 2. Exploitation
+How initial access was gained.
+
+## 3. Post-exploitation
+Privilege escalation, lateral movement, flags.
+
+## 4. Lessons learned
+What worked, what didn't, how to defend against it.
+```
+
+</details>
+
+---
+
+<div align="center">
+
+⚠️ _All content is for educational purposes and comes from legal, authorized lab environments._
+
+</div>
