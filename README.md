@@ -26,16 +26,5 @@ Each write-up follows the same structure: **recon → exploitation → post-expl
 | **Log & traffic analysis** | Wireshark, Windows Event Logs |
 | **Forensics** | Memory dumps, artifact analysis, OSINT |
 
-## Toolkit
-
-![Nmap](https://img.shields.io/badge/Nmap-24292f?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-24292f?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-24292f?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-24292f?style=flat-square)
-![Impacket](https://img.shields.io/badge/Impacket-24292f?style=flat-square)
-![BloodHound](https://img.shields.io/badge/BloodHound-24292f?style=flat-square)
-![FFUF](https://img.shields.io/badge/FFUF-24292f?style=flat-square)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-24292f?style=flat-square)
-
-
+##
 <sub>All content comes from legal, authorized lab environments and is for educational purposes only.</sub>
