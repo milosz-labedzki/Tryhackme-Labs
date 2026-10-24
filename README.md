@@ -19,12 +19,10 @@ Each write-up follows the same structure: **recon → exploitation → post-expl
 
 | Area | Topics |
 |------|--------|
-| **Enumeration** | Nmap scans, service fingerprinting, directory fuzzing |
-| **Web exploitation** | SQLi, XSS, IDOR, LFI/RFI, command injection |
-| **Active Directory** | Kerberoasting, LLMNR/NBT-NS poisoning, BloodHound |
-| **Privilege escalation** | Linux SUID / GTFOBins, Windows token impersonation, misconfigurations |
+| **Enumeration** | Nmap scans, directory fuzzing (FFUF) |
+| **Web basics** | SQL injection, XSS |
+| **Active Directory** | Kerberoasting, LLMNR/NBT-NS poisoning (see my AD Home Lab) |
 | **Log & traffic analysis** | Wireshark, Windows Event Logs |
-| **Forensics** | Memory dumps, artifact analysis, OSINT |
 
 ##
 <sub>All content comes from legal, authorized lab environments and is for educational purposes only.</sub>
